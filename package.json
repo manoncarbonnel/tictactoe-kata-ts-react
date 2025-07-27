@@ -1,0 +1,46 @@
+{
+  "name": "react-training",
+  "author": "Manon Carbonnel",
+  "version": "0.0.0",
+  "main": "/src/index.ts",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "eject": "react-scripts eject",
+    "format": "prettier . --write"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^30.0.0",
+    "@types/react-dom": "^19.1.6",
+    "jest": "^30.0.5",
+    "jest-environment-jsdom": "^30.0.5",
+    "jsdom": "^26.1.0",
+    "prettier": "^3.6.2",
+    "react-scripts": "^0.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
